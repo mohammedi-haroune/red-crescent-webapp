@@ -44,7 +44,7 @@ Commit messages should as clear as possible and should follow the syntax and gui
 ```
 <TYPE>[<SCOPE>]: <Title>
 // Blank line
-Message 
+Message
 ```
 
 Where `<TYPE>` could be:
@@ -63,3 +63,11 @@ Examples:
 `Doc[README]: add contiributing rules and guidlines`
 
 `Fix[backend]: fix hospitals lookup api`
+
+### Installation
+* Clone repository
+* cd red-crescent-webapp
+* npm install
+
+### Running
+* npm start
