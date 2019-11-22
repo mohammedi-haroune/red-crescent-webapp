@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/red-crescent-webapp/precache-manifest.488cb4d2b6f815f096d647aa63d1b74a.js"
+  "/red-crescent-webapp/precache-manifest.ae7553d16cea853ab84b05301b5e7feb.js"
 );
 
 self.addEventListener('message', (event) => {
