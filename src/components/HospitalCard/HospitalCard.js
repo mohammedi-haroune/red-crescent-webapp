@@ -22,10 +22,6 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center',
     justifyContent: 'center'
   },
-  image: {
-    width:'500px',
-    height: '500px',
-  },
   title:{
     fontSize: '25px',
     fontWeight:'700',
@@ -58,7 +54,7 @@ const HospitalCard = props => {
           <img
             alt="Product"
             src={hospital.imageUrl}
-            height="500"
+            height="300"
           />
         </div>
         <Typography

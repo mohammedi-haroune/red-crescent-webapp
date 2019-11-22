@@ -5,6 +5,7 @@ import {Grid} from '@material-ui/core';
 const useStyles = makeStyles(theme => ({
   content: {
     marginTop: '10px',
+    padding: '20px',
   },
   paper: {
     transition: '.2s transform',
