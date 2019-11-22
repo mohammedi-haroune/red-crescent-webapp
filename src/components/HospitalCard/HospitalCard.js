@@ -68,7 +68,7 @@ const HospitalCard = props => {
         <Divider />
         <Button
           className={classes.button}
-          onClick = {() => {window.location.replace(`https://www.google.com/maps/place/${hospital.location}`)}}>
+          onClick = {() => {window.open(`https://www.google.com/maps/place/${hospital.location}`, '_blank')}}>
             Location
         </Button>
       </CardContent>
