@@ -66,7 +66,7 @@ export const hospitals = [
   {
     id: uuid(),
     title:`EPH Bologhine`,
-    imageUrl: `https://cdnfr2.img.sputniknews.com/images//104213/97/1042139753.jpg`,
+    // imageUrl: `https://cdnfr2.img.sputniknews.com/images//104213/97/1042139753.jpg`,
     imageUrl: `pictures/hospitals/EPH_Bologhine.jpg`,
     location: `36°48'38.7"N 2°58'47.2"E`
   },
