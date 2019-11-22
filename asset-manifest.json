@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/red-crescent-webapp/static/css/main.d913a6ec.chunk.css",
-    "main.js": "/red-crescent-webapp/static/js/main.e921be3f.chunk.js",
-    "main.js.map": "/red-crescent-webapp/static/js/main.e921be3f.chunk.js.map",
+    "main.js": "/red-crescent-webapp/static/js/main.bd882e33.chunk.js",
+    "main.js.map": "/red-crescent-webapp/static/js/main.bd882e33.chunk.js.map",
     "runtime-main.js": "/red-crescent-webapp/static/js/runtime-main.bc67fe85.js",
     "runtime-main.js.map": "/red-crescent-webapp/static/js/runtime-main.bc67fe85.js.map",
-    "static/js/2.f36c8a13.chunk.js": "/red-crescent-webapp/static/js/2.f36c8a13.chunk.js",
-    "static/js/2.f36c8a13.chunk.js.map": "/red-crescent-webapp/static/js/2.f36c8a13.chunk.js.map",
+    "static/js/2.13b310fd.chunk.js": "/red-crescent-webapp/static/js/2.13b310fd.chunk.js",
+    "static/js/2.13b310fd.chunk.js.map": "/red-crescent-webapp/static/js/2.13b310fd.chunk.js.map",
     "index.html": "/red-crescent-webapp/index.html",
-    "precache-manifest.24b4e29e90cf08e013ef0ba5741be2f7.js": "/red-crescent-webapp/precache-manifest.24b4e29e90cf08e013ef0ba5741be2f7.js",
+    "precache-manifest.30fc9d2e866dd5e73b57ae0f26156fc4.js": "/red-crescent-webapp/precache-manifest.30fc9d2e866dd5e73b57ae0f26156fc4.js",
     "service-worker.js": "/red-crescent-webapp/service-worker.js",
     "static/css/main.d913a6ec.chunk.css.map": "/red-crescent-webapp/static/css/main.d913a6ec.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.bc67fe85.js",
-    "static/js/2.f36c8a13.chunk.js",
+    "static/js/2.13b310fd.chunk.js",
     "static/css/main.d913a6ec.chunk.css",
-    "static/js/main.e921be3f.chunk.js"
+    "static/js/main.bd882e33.chunk.js"
   ]
 }
