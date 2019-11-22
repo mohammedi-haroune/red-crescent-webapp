@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import {Hospitals} from './components';
 import './App.css';
 import {hospitals} from './data.js';

@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/styles';
 import {
   Card,
   CardContent,
-  CardActions,
   Typography,
-  Grid,
   Divider,
   Button
 } from '@material-ui/core';
@@ -39,13 +37,11 @@ const useStyles = makeStyles(theme => ({
 
 
 const HospitalCard = props => {
-  const { className, hospital, ...rest } = props;
+  const {hospital} = props;
   const classes = useStyles();
 
   return (
-    <Card
-      {...rest}
-    >
+    <Card>
       <CardContent
         style={{paddingBottom: '0'}}
         className={classes.root}

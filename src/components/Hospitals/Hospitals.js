@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { makeStyles } from '@material-ui/styles';
 import HospitalCard from '../HospitalCard/HospitalCard';
 import {Grid} from '@material-ui/core';
@@ -18,7 +18,7 @@ const useStyles = makeStyles(theme => ({
 
 
 const Hospitals = props => {
-  const { className, hospitals, ...rest } = props;
+  const { hospitals } = props;
   const classes = useStyles();
 
   return (
