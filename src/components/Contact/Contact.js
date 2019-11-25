@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import clsx from 'clsx';
+import * as emailjs from 'emailjs-com';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import HelpIcon from '@material-ui/icons/Help';
+import MessageIcon from '@material-ui/icons/Message';
 import EmailIcon from '@material-ui/icons/Email';
 
 import { makeStyles } from '@material-ui/styles';
@@ -55,9 +57,17 @@ const AccountDetails = props => {
   const [values, setValues] = useState({
     fullName: "",
     email: "",
-    object: '',
+    subject: '',
     message: '',
   });
+  const resetForm = () => {
+    setValues({
+      fullName: "",
+      email: "",
+      subject: '',
+      message: '',
+    });
+  }
 
   const handleChange = event => {
     setValues({
@@ -66,6 +76,22 @@ const AccountDetails = props => {
     });
   };
 
+  const onSubmit = (e) => {
+    e.preventDefault();
+    const templateParams = {
+      from_name: values.email,
+      to_name: 'redcrescentwebapp@gmail.com',
+      subject: values.subject,
+      message_html: values.message,
+    };
+    emailjs.send(
+      'gmail',
+      'template_wHsTREgr',
+       templateParams,
+      'user_VggCn99Lmk1Bvcb5lxiSv'
+    );
+    resetForm();
+  }
   return (
 
     <Card
@@ -104,6 +130,7 @@ const AccountDetails = props => {
                 color="secondary"
                 name="fullName"
                 label="Nom Complet"
+                value={values.fullName}
                 margin="dense"
                 placeholder="Indiquer votre nom complet"
                 onChange={handleChange}
@@ -130,6 +157,7 @@ const AccountDetails = props => {
                 fullWidth
                 color="secondary"
                 name="email"
+                value={values.email}
                 label="Adresse e-mail"
                 margin="dense"
                 placeholder="Veuillez indiquer votre adresse mail"
@@ -156,10 +184,10 @@ const AccountDetails = props => {
               <TextField
                 fullWidth
                 color="secondary"
-                name="objet"
-                label="Objet Du Message"
+                name="subject"
+                label="Subject Du Message"
+                value={values.subject}
                 placeholder="exemple: don de sang question"
-
                 margin="dense"
                 onChange={handleChange}
                 required
@@ -186,6 +214,7 @@ const AccountDetails = props => {
                 multiline
                 color="secondary"
                 name="message"
+                value={values.message}
                 label="Message"
                 placeholder="Veuillez écrire votre méssage ici"
                 margin="normal"
@@ -199,7 +228,7 @@ const AccountDetails = props => {
                   },
                   startAdornment: (
                     <InputAdornment position="start">
-                      <HelpIcon style={{color:'#2196f3', fontSize: '30px'}}/>
+                      <MessageIcon style={{color:'#2196f3', fontSize: '30px'}}/>
                     </InputAdornment>
                   ),
                 }}
@@ -212,6 +241,7 @@ const AccountDetails = props => {
               color="primary"
               variant="contained"
               style={{fontSize: '20px', width:'200px'}}
+              onClick={(e) => onSubmit(e)}
             >
               Envoyer
             </Button>
