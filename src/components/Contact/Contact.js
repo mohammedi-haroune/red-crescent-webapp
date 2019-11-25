@@ -53,12 +53,10 @@ const AccountDetails = props => {
   const classes = useStyles();
 
   const [values, setValues] = useState({
-    firstName: "",
-    lastName: "",
+    fullName: "",
     email: "",
-    phone: '',
-    city: 'City???',
-    country: 'Country???'
+    object: '',
+    message: '',
   });
 
   const handleChange = event => {
