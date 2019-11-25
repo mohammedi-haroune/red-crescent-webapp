@@ -4,8 +4,8 @@
   "private": true,
   "homepage": "http://mohammedi-haroune.github.io/red-crescent-webapp",
   "dependencies": {
-    "@material-ui/core": "^4.6.1",
-    "gh-pages":"^2.1.1",
+    "@material-ui/core": "^4.7.0",
+    "gh-pages": "^2.1.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.2.0"
