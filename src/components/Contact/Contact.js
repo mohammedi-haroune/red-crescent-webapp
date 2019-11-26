@@ -47,6 +47,20 @@ const useStyles = makeStyles(() => ({
   subHeader: {
     fontWeight: '1000',
     fontSize: '30px'
+  },
+  submitMsg: {
+    width: '50%',
+    padding:'10px 60px',
+    backgroundColor:'#00e676',
+    color: '#f1f8e9',
+    fontSize: '40px'
+  },
+  errorSubmitMsg: {
+    width: '50%',
+    padding:'10px 60px',
+    backgroundColor:'#ff1744',
+    color: '#f1f8e9',
+    fontSize: '40px'
   }
 }));
 
@@ -59,21 +73,29 @@ const AccountDetails = props => {
     email: "",
     subject: '',
     message: '',
+    submit: false,
+    errorSubmit: false
   });
-  const resetForm = () => {
-    setValues({
-      fullName: "",
-      email: "",
-      subject: '',
-      message: '',
-    });
-  }
+  const [errors, setErros] = useState({
+    fullNameError: "",
+    emailError: "",
+    subjectError: '',
+    messageError: '',
+  });
 
   const handleChange = event => {
-    setValues({
-      ...values,
-      [event.target.name]: event.target.value
-    });
+    if(values.submit)
+      setValues({
+        ...values,
+        submit: false,
+        [event.target.name]: event.target.value,
+      });
+    else
+      setValues({
+        ...values,
+        [event.target.name]: event.target.value,
+      });
+
   };
 
   const onSubmit = (e) => {
@@ -90,7 +112,14 @@ const AccountDetails = props => {
        templateParams,
       'user_VggCn99Lmk1Bvcb5lxiSv'
     );
-    resetForm();
+    setValues({
+      fullName: '',
+      email: '',
+      subject: '',
+      message: '',
+      submit: true,
+      errorSubmit: false
+    });
   }
   return (
 
@@ -202,7 +231,10 @@ const AccountDetails = props => {
                     </InputAdornment>
                   ),
                 }}
-            />
+              />
+              {
+
+              }
             </Grid>
             <Grid
               item
@@ -246,6 +278,18 @@ const AccountDetails = props => {
               Envoyer
             </Button>
           </CardActions>
+            { console.log(values.submit, values.errorSubmit),
+              values.submit
+              ?(values.errorSubmit
+                ?(<div className={classes.errorSubmitMsg}>
+                    Error Message Not Sent!
+                  </div>)
+                :(<div className={classes.submitMsg}>
+                    Message Sent!
+                  </div>)
+              )
+              :<></>
+            }
         </CardContent>
       </form>
     </Card>
