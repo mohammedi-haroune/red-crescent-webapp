@@ -1,7 +1,5 @@
 import React from 'react';
-import {Hospitals} from './components';
-import './App.css';
-import HospitalsMap from './HospitalsMap'
+import {Hospitals, HospitalsMap} from './components';
 import './App.css';
 import "leaflet/dist/leaflet.css"
 import L from 'leaflet';

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Map, TileLayer, GeoJSON, Marker, Popup} from 'react-leaflet';
+import {Map, TileLayer, Marker, Popup} from 'react-leaflet';
 import algiers_hospitals from './hospitals.json';
 import './HospitalsMap.css';
 
@@ -30,7 +30,7 @@ export default class HospitalsMap extends Component<{}, State> {
 
          {markers.map((value,index)=>{
            return (
-             <Marker position={value.geometry.coordinates}>
+             <Marker position={value.geometry.coordinates} key={index}>
               <Popup><h3>{value.properties.name}</h3></Popup>
             </Marker>
           )}
