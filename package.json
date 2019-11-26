@@ -5,9 +5,15 @@
   "homepage": "http://mohammedi-haroune.github.io/red-crescent-webapp",
   "dependencies": {
     "@material-ui/core": "^4.6.1",
+<<<<<<< HEAD
     "gh-pages":"^2.1.1",
+=======
+    "gh-pages": "^2.1.1",
+    "leaflet": "^1.5.1",
+>>>>>>> ee65a1e7b2cc0d36aa8ddba891500057a4a2b60a
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-leaflet": "^2.6.0",
     "react-scripts": "3.2.0"
   },
   "scripts": {
