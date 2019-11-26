@@ -6,6 +6,7 @@ import AccountCircle from '@material-ui/icons/AccountCircle';
 import HelpIcon from '@material-ui/icons/Help';
 import MessageIcon from '@material-ui/icons/Message';
 import EmailIcon from '@material-ui/icons/Email';
+import validator from 'validator';
 
 import { makeStyles } from '@material-ui/styles';
 import {
@@ -21,7 +22,7 @@ import {
 
 const useStyles = makeStyles(() => ({
   root: {
-    margin: '10px auto',
+    margin: '40px auto 0 auto',
   },
   cardHeader: {
     margin: '20px',
@@ -49,18 +50,24 @@ const useStyles = makeStyles(() => ({
     fontSize: '30px'
   },
   submitMsg: {
-    width: '50%',
     padding:'10px 60px',
+    marginBottom:'20px',
     backgroundColor:'#00e676',
     color: '#f1f8e9',
     fontSize: '40px'
   },
   errorSubmitMsg: {
-    width: '50%',
-    padding:'10px 60px',
+    padding:'10px 20px',
+    marginBottom:'20px',
     backgroundColor:'#ff1744',
     color: '#f1f8e9',
     fontSize: '40px'
+  },
+  errorStyle: {
+    textTransform: 'capitalize',
+    color: 'red',
+    fontSize: '15px',
+    textAlign:'left',
   }
 }));
 
@@ -69,37 +76,85 @@ const AccountDetails = props => {
   const classes = useStyles();
 
   const [values, setValues] = useState({
-    fullName: "",
-    email: "",
+    fullName: '',
+    email: '',
     subject: '',
     message: '',
     submit: false,
     errorSubmit: false
   });
-  const [errors, setErros] = useState({
-    fullNameError: "",
-    emailError: "",
+  const [errors, setErrors] = useState({
+    fullNameError: '',
+    emailError: '',
     subjectError: '',
-    messageError: '',
+    messageError: ''
   });
 
   const handleChange = event => {
+    const inputName = event.target.name;
+    const errorInputName = event.target.name+"Error";
     if(values.submit)
       setValues({
         ...values,
         submit: false,
-        [event.target.name]: event.target.value,
+        [inputName]: event.target.value,
       });
     else
       setValues({
         ...values,
-        [event.target.name]: event.target.value,
+        [inputName]: event.target.value,
       });
+    setErrors({
+      ...errors,
+      [errorInputName]: '',
+    });
+  }
 
-  };
+  const validForm = () => {
+    let valid = true;
+    let emailError = "";
+    let fullNameError = "";
+    let subjectError = "";
+    let messageError = "";
+    if(!validator.isEmail(values.email)){
+      emailError = 'Email non valide'
+      valid = false;
+    }
+    if(validator.isEmpty(values.email)){
+      emailError = 'email vide'
+      valid = false;
+    }
+    if(validator.isEmpty(values.fullName)){
+      fullNameError = 'Nom est vide'
+      valid = false;
+    }
+    if(validator.isEmpty(values.subject)){
+      subjectError = 'Sujet Vide'
+      valid = false;
+    }
+    if(validator.isEmpty(values.message)){
+      valid = false;
+      messageError = 'message vide'
+    }
+    setErrors({
+      fullNameError: fullNameError,
+      emailError: emailError,
+      subjectError: subjectError,
+      messageError: messageError
+    });
+    return valid;
+  }
 
   const onSubmit = (e) => {
     e.preventDefault();
+    if(!validForm()){
+      setValues({
+        ...values,
+        submit: true,
+        errorSubmit: true
+      });
+      return;
+    }
     const templateParams = {
       from_name: values.email,
       to_name: 'redcrescentwebapp@gmail.com',
@@ -145,6 +200,17 @@ const AccountDetails = props => {
         <CardContent
           classes = {{root: classes.rootCardContent,
             content: classes.cardContent}}>
+          {values.submit
+            ?(values.errorSubmit
+              ?(<div className={classes.errorSubmitMsg}>
+                Erreur: Message Non-Envoyer
+                </div>)
+                :(<div className={classes.submitMsg}>
+                  Message Envoyer
+                  </div>)
+                )
+                :<></>
+              }
           <Grid
             container
             spacing={3}
@@ -175,7 +241,10 @@ const AccountDetails = props => {
                     </InputAdornment>
                   ),
                 }}
-            />
+              />
+              <div className={classes.errorStyle}>
+                {errors.fullNameError}
+              </div>
             </Grid>
             <Grid
               item
@@ -203,7 +272,10 @@ const AccountDetails = props => {
                     </InputAdornment>
                   ),
                 }}
-            />
+              />
+              <div className={classes.errorStyle}>
+                {errors.emailError}
+              </div>
             </Grid>
             <Grid
               item
@@ -232,9 +304,9 @@ const AccountDetails = props => {
                   ),
                 }}
               />
-              {
-
-              }
+              <div className={classes.errorStyle}>
+                {errors.subjectError}
+              </div>
             </Grid>
             <Grid
               item
@@ -264,7 +336,10 @@ const AccountDetails = props => {
                     </InputAdornment>
                   ),
                 }}
-            />
+              />
+              <div className={classes.errorStyle}>
+                {errors.messageError}
+              </div>
             </Grid>
           </Grid>
           <Divider />
@@ -278,18 +353,6 @@ const AccountDetails = props => {
               Envoyer
             </Button>
           </CardActions>
-            { console.log(values.submit, values.errorSubmit),
-              values.submit
-              ?(values.errorSubmit
-                ?(<div className={classes.errorSubmitMsg}>
-                    Error Message Not Sent!
-                  </div>)
-                :(<div className={classes.submitMsg}>
-                    Message Sent!
-                  </div>)
-              )
-              :<></>
-            }
         </CardContent>
       </form>
     </Card>
