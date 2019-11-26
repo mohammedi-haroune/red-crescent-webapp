@@ -33,8 +33,12 @@ export default class HospitalsMap extends Component<{}, State> {
 
 
          {markers.map((value,index)=>{
-           return <Marker position={value.geometry.coordinates} key={index}> <Popup><h3>{value.properties.name}</h3></Popup> </Marker>
-             })}
+           return (
+             <Marker position={value.geometry.coordinates} key={index}>
+                <Popup><h3>{value.properties.name}</h3></Popup>
+              </Marker>
+            )}
+          )}
          </Map>
       );
   }
