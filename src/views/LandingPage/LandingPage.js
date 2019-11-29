@@ -32,7 +32,7 @@ export default function LandingPage(props) {
           />
           <GridContainer>
             <GridItem className={classes.gridContainer} xs={12} sm={12} md={12}>
-              <h1 className={classes.title}>Donner du <span style={{color: '#f44336'}}>Sang</span>, Sauvez une <span style={{color: '#f44336'}}>Vie♥</span></h1>
+              <h1 className={classes.title}>Donnez du <span style={{color: '#f44336'}}>Sang</span>, Sauvez une <span style={{color: '#f44336'}}>Vie♥</span></h1>
               <h4 className={classes.subtitle}>
                 Le Don de Sang est un geste qui ne prend pas plus de 30 minutes,
                 grâce auquel jusqu’à 3 VIES peuvent être sauvées.
