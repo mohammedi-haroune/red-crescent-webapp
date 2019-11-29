@@ -9,9 +9,9 @@ function App() {
   return (
     <Router history={hist}>
       <Switch>
-        <Route path="/" component={LandingPage} />
-        <Route path="/Contact" component={Contact} />
-        <Route path="/hopitaux" component={LandingPage} />
+        <Route path="/" exact component={LandingPage} />
+        <Route path="/contact" exact component={Contact} />
+        <Route path="/hopitaux" exact component={LandingPage} />
         <Redirect to="/" />
       </Switch>
     </Router>

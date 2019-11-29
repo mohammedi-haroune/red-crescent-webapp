@@ -9,6 +9,7 @@ import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import styles from "assets/jss/views/landingPage.js";
+import { Link } from "react-router-dom";
 
 
 const dashboardRoutes = [];
@@ -38,17 +39,18 @@ export default function LandingPage(props) {
                 S’effectue tous les jours dans les hopitaux.
               </h4>
               <br />
-              <Button
-                color="danger"
-                size="lg"
-                href="#"
-                target="_blank"
-                className={classes.button}
-                rel="noopener noreferrer"
-              >
-                <i className="fas fa-play" />
-                Hopitaux Don de Sang
-              </Button>
+              <Link to={"/hopitaux"} style={{color: 'inherit'}}>
+
+                <Button
+                  color="danger"
+                  size="lg"
+                  className={classes.button}
+                  rel="Don De Sang"
+                >
+                  <i className="fas fa-play" />
+                  Hopitaux Don de Sang
+                </Button>
+              </Link>
             </GridItem>
           </GridContainer>
         </div>

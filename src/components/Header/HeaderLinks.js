@@ -25,21 +25,23 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <Button
-          href="#"
-          color="transparent"
-          className={classes.navLink}
-        >
-          <ContactSupportIcon className={classes.icons} style={{color: '#2196f3'}}/> Contact Us
-        </Button>
+        <Link to={"/Contact"} style={{color: '#3f51b5', textDecoration: 'none'}}>
+          <Button
+            color="transparent"
+            className={classes.navLink}
+          >
+            <ContactSupportIcon className={classes.icons} style={{color: '#3f51b5'}}/> Contacez Nous
+          </Button>
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
           href="#"
           color="transparent"
+          style={{color: '#ff5722'}}
           className={classes.navLink}
         >
-          <PeopleAltIcon className={classes.icons} style={{color: '#ff9100'}}/> Contributors
+          <PeopleAltIcon className={classes.icons} style={{color: '#ff5722'}}/> Contributors
         </Button>
       </ListItem>
     </List>

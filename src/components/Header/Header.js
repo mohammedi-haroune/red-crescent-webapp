@@ -11,6 +11,7 @@ import IconButton from "@material-ui/core/IconButton";
 import Button from "@material-ui/core/Button";
 import Hidden from "@material-ui/core/Hidden";
 import Drawer from "@material-ui/core/Drawer";
+import { Link } from "react-router-dom";
 // @material-ui/icons
 import Menu from "@material-ui/icons/Menu";
 import FavoriteIcon from '@material-ui/icons/Favorite';
@@ -29,15 +30,18 @@ export default function Header(props) {
   const appBarClasses = classNames({
     [classes.appBar]: true,
   });
-  const brandComponent = <Button className={classes.title}>
-      <span style={{color:'#f44336'}}>
-        <FavoriteIcon />
-      </span>
-      DonDe
-      <span style={{color:'#f44336'}}>
-        Sang
-      </span>
-    </Button>;
+  const brandComponent =
+    <Link to={"/"} style={{color: 'inherit', textDecoration: 'none'}}>
+      <Button className={classes.title}>
+        <span style={{color:'#f44336'}}>
+          <FavoriteIcon />
+        </span>
+        DonDe
+        <span style={{color:'#f44336'}}>
+          Sang
+        </span>
+      </Button>;
+    </Link>
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
