@@ -6,7 +6,6 @@ const landingPageStyle = theme => ({
     margin: '0',
     padding: '0',
     backgroundColor: 'grey',
-    background: `url('pictures/bg.webp') right`,
     backgroundSize: 'cover',
   },
   landing: {

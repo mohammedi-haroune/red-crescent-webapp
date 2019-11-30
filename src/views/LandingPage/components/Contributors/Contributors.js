@@ -5,6 +5,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
+
 import {
   Avatar,
   Typography,
@@ -142,35 +143,35 @@ class Contributors extends Component{
             ?<Avatar
                 alt="Person"
                 className={classes.avatar}
-                src= 'assets/pictures/contributors/hichem.jpg'
+                src={`${window.location.origin}/pictures/contributors/hichem.jpg`}
+
                 style={{border:'5px solid #f44336'}}
                 onMouseLeave={() => {this.endFirstOpen()}}
               />
             :<Avatar
                 alt="Person"
                 className={classes.avatar}
-                src= 'assets/pictures/contributors/hichem.jpg'
+                src={`${window.location.origin}/pictures/contributors/hichem.jpg`}
                 onMouseOver={() => {this.endFirstOpen(); this.setContributorId(0);}}
               />
           }
           <Avatar
             alt="Person"
             className={classes.avatar}
-            src= 'assets/pictures/contributors/haroun.jpg'
+            src={`${window.location.origin}/pictures/contributors/haroun.jpg`}
             onMouseOver={() => {this.endFirstOpen(); this.setContributorId(1);}}
           />
           <Avatar
             alt="Person"
             className={classes.avatar}
-            src= 'assets/pictures/contributors/dallel.jpg'
+            src={`${window.location.origin}/pictures/contributors/dallel.jpg`}
             onMouseOver={() => {this.endFirstOpen(); this.setContributorId(2);}}
 
           />
           <Avatar
             alt="Person"
             className={classes.avatar}
-            src= 'assets/pictures/contributors/mehdi.jpg'
-            size="cover"
+            src={`${window.location.origin}/pictures/contributors/mehdi.jpg`}
             onMouseOver={() => {this.endFirstOpen(); this.setContributorId(3);}}
 
           />

@@ -1,14 +1,12 @@
 import React from 'react';
-import {LandingPage, ContactPage} from './views';
-import {Hospitals} from './components';
-import './App.css';
+import {LandingPage, ContactPage, MapHospitalsPage} from './views';
 import { createBrowserHistory } from "history";
 import { Router, Route, Redirect, Switch } from "react-router-dom";
-var hist = createBrowserHistory();
+import './App.css';
 import "leaflet/dist/leaflet.css"
 import L from 'leaflet';
-import {hospitals} from './data.js';
 
+var hist = createBrowserHistory();
 function App() {
 
   React.useEffect(() => {
@@ -27,7 +25,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={LandingPage} />
         <Route path="/contact" exact component={ContactPage} />
-        <Route path="/hopitaux" exact component={HospitalsMap} />
+        <Route path="/hopitaux" exact component={MapHospitalsPage} />
         <Redirect to="/" />
       </Switch>
     </Router>
