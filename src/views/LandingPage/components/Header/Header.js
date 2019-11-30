@@ -17,6 +17,7 @@ import Menu from "@material-ui/icons/Menu";
 import FavoriteIcon from '@material-ui/icons/Favorite';
 // core components
 import styles from "assets/jss/components/headerStyle.js";
+import HeaderLinks from "./HeaderLinks.js";
 
 const useStyles = makeStyles(styles);
 
@@ -26,7 +27,7 @@ export default function Header(props) {
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
-  const { rightLinks, leftLinks } = props;
+  const { setPopUp, leftLinks } = props;
   const appBarClasses = classNames({
     [classes.appBar]: true,
   });
@@ -56,7 +57,7 @@ export default function Header(props) {
           )}
         </div>
         <Hidden smDown implementation="css">
-          {rightLinks}
+          <HeaderLinks setPopUp={setPopUp}/>
         </Hidden>
         <Hidden mdUp>
           <IconButton
@@ -80,7 +81,7 @@ export default function Header(props) {
         >
           <div className={classes.appResponsive}>
             {leftLinks}
-            {rightLinks}
+            <HeaderLinks setPopUp={setPopUp} />
           </div>
         </Drawer>
       </Hidden>

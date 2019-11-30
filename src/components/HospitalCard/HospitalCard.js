@@ -37,8 +37,8 @@ const useStyles = makeStyles(theme => ({
 
 
 const HospitalCard = props => {
-  const {hospital} = props;
   const classes = useStyles();
+  const {hospital} = props;
 
   return (
     <Card>

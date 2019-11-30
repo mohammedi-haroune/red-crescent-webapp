@@ -1,6 +1,6 @@
 import { title } from "assets/jss/material-kit-react.js";
 
-const landingPageStyle = {
+const landingPageStyle = theme => ({
   container: {
     color: "#FFFFFF",
     margin: '0',
@@ -33,9 +33,6 @@ const landingPageStyle = {
   title: {
     ...title,
     position: "relative",
-    marginTop: "30px",
-    minHeight: "32px",
-    color: "#FFFFFF",
     textShadow: '0 0 3px #f44336',
     textDecoration: "none",
     "@media (min-width: 300px)": {
@@ -91,6 +88,6 @@ const landingPageStyle = {
       fontSize: '30px'
     },
   }
-};
+});
 
 export default landingPageStyle;

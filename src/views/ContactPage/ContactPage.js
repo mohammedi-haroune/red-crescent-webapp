@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import clsx from 'clsx';
+import { Link } from "react-router-dom";
 import * as emailjs from 'emailjs-com';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import HelpIcon from '@material-ui/icons/Help';
 import MessageIcon from '@material-ui/icons/Message';
+import FavoriteIcon from '@material-ui/icons/Favorite';
+import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import EmailIcon from '@material-ui/icons/Email';
 import validator from 'validator';
 
@@ -22,11 +24,11 @@ import {
 
 const useStyles = makeStyles(() => ({
   root: {
-    margin: '40px auto 0 auto',
   },
   cardHeader: {
-    margin: '20px',
-    backgroundColor: '#f48fb1'
+    backgroundColor: '#f48fb1',
+    textAlign: 'center',
+    padding: '30px 20px 20px 20px',
   },
   rootCardContent: {
     width: '70%',
@@ -43,13 +45,14 @@ const useStyles = makeStyles(() => ({
   },
   title: {
     fontWeight: '1000',
-    fontSize: '30px'
+    fontSize: '40px',
   },
   subHeader: {
     fontWeight: '1000',
     fontSize: '30px'
   },
   submitMsg: {
+    textAlign: 'center',
     padding:'10px 60px',
     marginBottom:'20px',
     backgroundColor:'#00e676',
@@ -57,6 +60,7 @@ const useStyles = makeStyles(() => ({
     fontSize: '40px'
   },
   errorSubmitMsg: {
+    textAlign:'center',
     padding:'10px 20px',
     marginBottom:'20px',
     backgroundColor:'#ff1744',
@@ -71,8 +75,7 @@ const useStyles = makeStyles(() => ({
   }
 }));
 
-const AccountDetails = props => {
-  const { className, ...rest } = props;
+const ContactPage = props => {
   const classes = useStyles();
 
   const [values, setValues] = useState({
@@ -179,8 +182,7 @@ const AccountDetails = props => {
   return (
 
     <Card
-      {...rest}
-      className={clsx(classes.root, className)}
+      className="classes.root"
       color="secondary"
     >
       <form
@@ -196,6 +198,26 @@ const AccountDetails = props => {
           subheader="Si vous avez n'importe quelle question? Nous sommes la pour vous!"
           title="Contactez Nous"
         />
+          <div style={{backgroundColor: 'transparent',position:'fixed', top:'5px', right:'10px'}}>
+            <Link to={"/"} style={{color: 'inherit'}}>
+              <Button
+                color="inherit"
+                variant="contained"
+                href=""
+                style={{ textTransform:'capitalize', fontWeight:'1000', fontSize: '15px'}}
+              >
+                <span style={{color:'#f44336'}}>
+                  <FavoriteIcon />
+                </span>
+                DonDe
+                <span style={{color:'#f44336'}}>
+                  Sang
+                </span>
+                <ExitToAppIcon />
+              </Button>
+            </Link>
+          </div>
+
         <Divider />
         <CardContent
           classes = {{root: classes.rootCardContent,
@@ -227,7 +249,7 @@ const AccountDetails = props => {
                 label="Nom Complet"
                 value={values.fullName}
                 margin="dense"
-                placeholder="Indiquer votre nom complet"
+                placeholder="Indiquez votre nom complet"
                 onChange={handleChange}
                 required
                 variant="outlined"
@@ -288,7 +310,7 @@ const AccountDetails = props => {
                 name="subject"
                 label="Subject Du Message"
                 value={values.subject}
-                placeholder="exemple: don de sang question"
+                placeholder="exemple: Question-Don-De-Sang"
                 margin="dense"
                 onChange={handleChange}
                 required
@@ -360,4 +382,4 @@ const AccountDetails = props => {
 };
 
 
-export default AccountDetails;
+export default ContactPage;

@@ -1,5 +1,6 @@
 import React from 'react';
-import {LandingPage, Contact} from './views';
+import {LandingPage, ContactPage} from './views';
+import {Hospitals} from './components';
 import './App.css';
 import { createBrowserHistory } from "history";
 import { Router, Route, Redirect, Switch } from "react-router-dom";
@@ -10,8 +11,8 @@ function App() {
     <Router history={hist}>
       <Switch>
         <Route path="/" exact component={LandingPage} />
-        <Route path="/contact" exact component={Contact} />
-        <Route path="/hopitaux" exact component={LandingPage} />
+        <Route path="/contact" exact component={ContactPage} />
+        <Route path="/hopitaux" exact component={Hospitals} />
         <Redirect to="/" />
       </Switch>
     </Router>

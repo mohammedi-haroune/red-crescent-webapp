@@ -9,7 +9,6 @@ import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
-
 // @material-ui/icons
 import PeopleAltIcon from '@material-ui/icons/PeopleAlt';
 import ContactSupportIcon from '@material-ui/icons/ContactSupport';
@@ -22,28 +21,32 @@ const useStyles = makeStyles(styles);
 
 export default function HeaderLinks(props) {
   const classes = useStyles();
+  const {setPopUp} = props;
   return (
-    <List className={classes.list}>
-      <ListItem className={classes.listItem}>
-        <Link to={"/Contact"} style={{color: '#3f51b5', textDecoration: 'none'}}>
+    <div>
+      <List className={classes.list}>
+        <ListItem className={classes.listItem}>
+          <Link to={"/Contact"} style={{color: '#3f51b5', textDecoration: 'none'}}>
+            <Button
+              color="transparent"
+              className={classes.navLink}
+            >
+              <ContactSupportIcon className={classes.icons} style={{color: '#3f51b5'}}/> Contacez Nous
+            </Button>
+          </Link>
+        </ListItem>
+        <ListItem className={classes.listItem}>
           <Button
             color="transparent"
+            style={{color: '#ff5722'}}
             className={classes.navLink}
+            onClick={()=>{setPopUp(true)}}
           >
-            <ContactSupportIcon className={classes.icons} style={{color: '#3f51b5'}}/> Contacez Nous
+            <PeopleAltIcon className={classes.icons} style={{color: '#ff5722'}}/> Contributeurs
           </Button>
-        </Link>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          href="#"
-          color="transparent"
-          style={{color: '#ff5722'}}
-          className={classes.navLink}
-        >
-          <PeopleAltIcon className={classes.icons} style={{color: '#ff5722'}}/> Contributors
-        </Button>
-      </ListItem>
-    </List>
+        </ListItem>
+      </List>
+
+    </div>
   );
 }
