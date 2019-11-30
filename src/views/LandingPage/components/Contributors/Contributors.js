@@ -142,34 +142,34 @@ class Contributors extends Component{
             ?<Avatar
                 alt="Person"
                 className={classes.avatar}
-                src= 'pictures/contributors/hichem.jpg'
+                src= 'assets/pictures/contributors/hichem.jpg'
                 style={{border:'5px solid #f44336'}}
                 onMouseLeave={() => {this.endFirstOpen()}}
               />
             :<Avatar
                 alt="Person"
                 className={classes.avatar}
-                src= 'pictures/contributors/hichem.jpg'
+                src= 'assets/pictures/contributors/hichem.jpg'
                 onMouseOver={() => {this.endFirstOpen(); this.setContributorId(0);}}
               />
           }
           <Avatar
             alt="Person"
             className={classes.avatar}
-            src= 'pictures/contributors/haroun.jpg'
+            src= 'assets/pictures/contributors/haroun.jpg'
             onMouseOver={() => {this.endFirstOpen(); this.setContributorId(1);}}
           />
           <Avatar
             alt="Person"
             className={classes.avatar}
-            src= 'pictures/contributors/dalel.jpg'
+            src= 'assets/pictures/contributors/dallel.jpg'
             onMouseOver={() => {this.endFirstOpen(); this.setContributorId(2);}}
 
           />
           <Avatar
             alt="Person"
             className={classes.avatar}
-            src= 'pictures/contributors/mehdi.jpg'
+            src= 'assets/pictures/contributors/mehdi.jpg'
             size="cover"
             onMouseOver={() => {this.endFirstOpen(); this.setContributorId(3);}}
 

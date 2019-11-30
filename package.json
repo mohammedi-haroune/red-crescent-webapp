@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "http://mohammedi-haroune.github.io/red-crescent-webapp",
   "dependencies": {
-<<<<<<< HEAD
     "@material-ui/core": "^4.7.0",
     "@material-ui/icons": "^4.5.1",
     "classnames": "^2.2.6",
