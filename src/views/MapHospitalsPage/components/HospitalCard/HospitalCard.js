@@ -11,22 +11,23 @@ import {
 
 const useStyles = makeStyles(theme => ({
   root: {
+    textAlign:'center',
   },
   imageContainer: {
     margin: '0 auto',
-    // border: `1px solid ${theme.palette.divider}`,
+    width: '200px',
+    height: 'auto',
     overflow: 'hidden',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center'
   },
   title:{
-    fontSize: '25px',
+    fontSize: '15px',
     fontWeight:'700',
     margin:'10px 0',
     width: '100%',
     color: 'black',
-    // theme.palette.text.primary,
   },
   button: {
     textAlign: 'center',
@@ -49,8 +50,8 @@ const HospitalCard = props => {
         <div className={classes.imageContainer}>
           <img
             alt="Product"
-            src={hospital.imageUrl}
-            height="300"
+            src={`${window.location.origin}${hospital.imageUrl}`}
+            height="200"
           />
         </div>
         <Typography
@@ -58,14 +59,14 @@ const HospitalCard = props => {
           gutterBottom
           className={classes.title}
         >
-          {hospital.title}
+          {hospital.name}
         </Typography>
 
         <Divider />
         <Button
           className={classes.button}
           onClick = {() => {window.open(`https://www.google.com/maps/place/${hospital.location}`, '_blank')}}>
-            Location
+            Localisation
         </Button>
       </CardContent>
     </Card>
