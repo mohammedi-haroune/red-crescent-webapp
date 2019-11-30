@@ -42,7 +42,7 @@ export default function HeaderLinks(props) {
             className={classes.navLink}
             onClick={()=>{setPopUp(true)}}
           >
-            <PeopleAltIcon className={classes.icons} style={{color: '#ff5722'}}/> Contributors
+            <PeopleAltIcon className={classes.icons} style={{color: '#ff5722'}}/> Contributeurs
           </Button>
         </ListItem>
       </List>
