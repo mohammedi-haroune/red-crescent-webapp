@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://mohammedi-haroune.github.io/red-crescent-webapp",
   "dependencies": {
+<<<<<<< HEAD
     "@material-ui/core": "^4.7.0",
     "@material-ui/icons": "^4.5.1",
     "classnames": "^2.2.6",
@@ -13,6 +14,8 @@
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
+    "react-leaflet": "^2.6.0",
+    "leaflet": "^1.5.1",
     "reactjs-popup": "^1.5.0",
     "validator": "^12.1.0"
   },
