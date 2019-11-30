@@ -106,17 +106,6 @@ const infoContributors = [
       github:'https://github.com/MediMESS',
       linkedin: 'https://www.linkedin.com/in/mehdi-messarat-554a34112/'
     }
-  },
-  {
-    id: 4,
-    name: '',
-    email: '',
-    profession: '',
-    socialMedia: {
-      facebook:'',
-      linkedin:'',
-      instagram: ''
-    }
   }
 ]
 
@@ -124,13 +113,19 @@ class Contributors extends Component{
   constructor(props) {
     super(props);
     this.state = {
-      contributorId: 4,
+      contributorId: 0,
+      firstOpen: true,
     }
   }
 
   setContributorId = (id) => {
     this.setState({
       contributorId: id
+    });
+  }
+  endFirstOpen = () => {
+    this.setState({
+      firstOpen: false
     });
   }
 
@@ -143,31 +138,41 @@ class Contributors extends Component{
           className={classes.root}
         >
         <div style ={{display: 'flex', justifyContent: 'space-around', width: '100%'}}>
-          <Avatar
-            alt="Person"
-            className={classes.avatar}
-            src= 'pictures/contributors/hichem.jpg'
-            onMouseOver={() => {this.setContributorId(0)}}
-          />
+          {this.state.firstOpen === true
+            ?<Avatar
+                alt="Person"
+                className={classes.avatar}
+                src= 'pictures/contributors/hichem.jpg'
+                style={{border:'5px solid #f44336'}}
+                onMouseLeave={() => {this.endFirstOpen()}}
+              />
+            :<Avatar
+                alt="Person"
+                className={classes.avatar}
+                src= 'pictures/contributors/hichem.jpg'
+                onMouseOver={() => {this.endFirstOpen(); this.setContributorId(0);}}
+              />
+          }
           <Avatar
             alt="Person"
             className={classes.avatar}
             src= 'pictures/contributors/haroun.jpg'
-            onMouseOver={() => {this.setContributorId(1)}}
-
+            onMouseOver={() => {this.endFirstOpen(); this.setContributorId(1);}}
           />
           <Avatar
             alt="Person"
             className={classes.avatar}
             src= 'pictures/contributors/dalel.jpg'
-            onMouseOver={() => {this.setContributorId(2)}}
+            onMouseOver={() => {this.endFirstOpen(); this.setContributorId(2);}}
+
           />
           <Avatar
             alt="Person"
             className={classes.avatar}
             src= 'pictures/contributors/mehdi.jpg'
             size="cover"
-            onMouseOver={() => {this.setContributorId(3)}}
+            onMouseOver={() => {this.endFirstOpen(); this.setContributorId(3);}}
+
           />
         </div>
           <Typography
