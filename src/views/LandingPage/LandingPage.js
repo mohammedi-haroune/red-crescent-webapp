@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 // nodejs library that concatenates classes
 import { withStyles } from "@material-ui/styles";
+import classNames from "classnames";
 
 // core components
 import Header from "./components/Header/Header.js";
@@ -11,6 +12,7 @@ import useStyles from "assets/jss/views/landingPage.js";
 import { Link } from "react-router-dom";
 import Popup from "reactjs-popup";
 import Contributors from "./components/Contributors/Contributors";
+import './LandingPage.css';
 
 
 const dashboardRoutes = [];
@@ -30,7 +32,7 @@ class LandingPage extends Component{
   render() {
     const { classes, ...rest } = this.props;
     return (
-        <div className={classes.container}>
+        <div className={classNames(classes.container, "bg")}>
 
           <div className={classes.landing}>
             <Header
