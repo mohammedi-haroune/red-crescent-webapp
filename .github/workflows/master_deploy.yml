@@ -15,5 +15,11 @@ jobs:
         node-version: '10.x'
     - name: Install Packages
       run: npm install
-    - name: Deploy to GH Pages
-      run: npm run deploy
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: ftp.dondesang.info
+        FTP_USERNAME: github
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        LOCAL_DIR: build
+        ARGS: --delete
