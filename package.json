@@ -2,7 +2,7 @@
   "name": "red-crescent-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mohammedi-haroune.github.io/red-crescent-webapp",
+  "homepage": "http://dondesang.info",
   "dependencies": {
     "@material-ui/core": "^4.7.0",
     "@material-ui/icons": "^4.5.1",
@@ -16,7 +16,8 @@
     "react-leaflet": "^2.6.0",
     "leaflet": "^1.5.1",
     "reactjs-popup": "^1.5.0",
-    "validator": "^12.1.0"
+    "validator": "^12.1.0",
+    "react-ga": "^2.7.0"
   },
   "scripts": {
     "start": "react-scripts start",
