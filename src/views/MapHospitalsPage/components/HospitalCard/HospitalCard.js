@@ -66,7 +66,7 @@ const HospitalCard = props => {
         <Button
           className={classes.button}
           onClick = {() => {window.open(`https://www.google.com/maps/place/${hospital.location}`, '_blank')}}>
-            Localisation
+            Donner Mon Sang Ici
         </Button>
       </CardContent>
     </Card>
