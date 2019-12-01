@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - fix-github-action
 jobs:
   build:
     runs-on: ubuntu-latest
