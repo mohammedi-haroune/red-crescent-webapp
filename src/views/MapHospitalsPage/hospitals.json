@@ -1,0 +1,194 @@
+[
+  {
+    "type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[36.7628611,3.0531666666666664]
+    },
+    "properties":{
+      "name": "CHU Mustapha Pacha",
+      "location": "36°45'46.3\"N 3°03'11.4\"E",
+      "imageUrl": "/pictures/hospitals/CHU_Mustapha_Pacha.jpg"
+    }
+  },
+  {
+    "type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[36.7803333,2.981388888888889]
+    },
+    "properties":{
+      "name": "CHU Béni Messouss",
+      "location": "36°46'49.2\"N 2°58'53.0\"E",
+      "imageUrl": "/pictures/hospitals/CHU_Beni_Messous.jpg"
+    }
+  },
+  {
+    "type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[36.7934167,3.0506944444444444]
+    },
+    "properties":{
+      "name": "CHU Bab El Oued",
+      "imageUrl": "/pictures/hospitals/CHU_Bab_El_Oued.jpg",
+      "location": "36°47'36.3\"N 3°03'02.5\"E"
+    }
+  },
+  {
+    "type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[36.7358889,3.1044722222222223]
+    },
+    "properties":{
+      "name": "CHU Hussein Dey (Parnet)",
+      "imageUrl": "/pictures/hospitals/CHU_Parnet.jpg",
+      "location": "36°44'09.2\"N 3°06'16.1\"E"
+    }
+  },
+  {
+    "type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[36.7046389,3.125777777777778]
+    },
+    "properties":{
+      "name": "EHS Salim Z'mirli",
+      "imageUrl": "/pictures/hospitals/EHS_Salim_Zemirli.jpg",
+      "location": "36°47'36.3\"N 3°03'02.5\"E"
+    }
+  },
+  {
+    "type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[36.7680556,3.0003333333333333]
+    },
+    "properties":{
+      "name": "EHS Dr Madouche (CNMS)",
+      "imageUrl": "/pictures/hospitals/EHS_CNMS.jpg",
+      "location": "36°46'05.0\"N 3°00'01.2\"E"
+    }
+  },
+  {
+    "type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[36.6663056,2.9428055555555557]
+    },
+    "properties":{
+      "name": "CHU Douéra",
+      "imageUrl": "/pictures/hospitals/CHU_Douera.jpg",
+      "location": "36°39'58.7\"N 2°56'34.1\"E"
+    }
+  },
+  {
+    "type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[36.7871111,3.0582499999999997]
+    },
+    "properties":{
+      "name": "EHS Ait Idir",
+      "imageUrl": "/pictures/hospitals/EHS_Ali_Ait_Idir.jpg",
+      "location": "36°47'13.6\"N 3°03'29.7\"E"
+    }
+  },
+  {
+    "type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[36.7726667,3.040083333333333]
+    },
+    "properties":{
+      "name": "EPH El Biar (Bitraria)",
+      "imageUrl": "/pictures/hospitals/EPH_Birtraria.jpg",
+      "location": "36°46'21.6\"N 3°02'24.3\"E"
+    }
+  },
+  {
+    "type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[36.72575,3.0872222222222225]
+    },
+    "properties":{
+      "name": "EPH Kouba",
+      "imageUrl": "/pictures/hospitals/EPH_Kouba.jpg",
+      "location": "36°43'32.7\"N 3°05'14.0\"E"
+    }
+  },
+  {
+    "type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[36.81075,2.979777777777778]
+    },
+    "properties":{
+      "name": "EPH Bologhine",
+      "imageUrl": "/pictures/hospitals/EPH_Bologhine.jpg",
+      "location": "36°48'38.7\"N 2°58'47.2\"E"
+    }
+  },
+  {
+    "type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[36.7204444,3.14775]
+    },
+    "properties":{
+      "name": "EPH El Harrach (Belfort)",
+      "imageUrl": "/pictures/hospitals/EPH_Belfort.jpg",
+      "location": "36°43'13.6\"N 3°08'51.9\"E"
+    }
+  },
+  {
+    "type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[36.7895,3.296222222222222]
+    },
+    "properties":{
+      "name": "EPH Ain Taya",
+      "imageUrl": "/pictures/hospitals/EPH_Ain_Taya.jpg",
+      "location": "36°47'22.2\"N 3°17'46.4\"E"
+    }
+  },
+  {
+    "type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[36.7002222,2.8428333333333335]
+    },
+    "properties":{
+      "name": "EPH Zéralda",
+      "imageUrl": "/pictures/hospitals/EPH_Zeralda.jpg",
+      "location": "36°42'00.8\"N 2°50'34.2\"E"
+    }
+  },
+  {
+    "type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[36.7356111,3.2856944444444443]
+    },
+    "properties":{
+      "name": "EPH Rouiba",
+      "imageUrl": "/pictures/hospitals/EPH_Rouiba.jpg",
+      "location": "36°44'08.2\"N 3°17'08.5\"E"
+    }
+  },
+  {
+    "type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[36.7341667,3.0533055555555553]
+    },
+    "properties":{
+      "name": "EHS Abderrahmani (Bir Mourad Rais)",
+      "imageUrl": "/pictures/hospitals/EHS_Abderrahmani.jpg",
+      "location": "36°44'03.0\"N 3°03'11.9\"E"
+    }
+  }
+]
