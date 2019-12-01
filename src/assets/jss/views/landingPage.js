@@ -32,21 +32,28 @@ const landingPageStyle = theme => ({
   title: {
     ...title,
     position: "relative",
-    textShadow: '0 0 3px #f44336',
+    textShadow: '0 0 3px black',
     textDecoration: "none",
-    "@media (min-width: 300px)": {
-      marginTop: '0',
+    marginTop: '0',
+    "@media (max-width: 300px)": {
+      fontSize: "30px"
+    },
+    "@media (max-width: 500px)": {
+      fontSize: "30px"
     },
   },
   subtitle: {
-    fontSize: "1.6rem",
+    fontSize: "1.8rem",
     boxShadow: "0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)",
     margin: '0',
     padding: '10px',
-    textStroke: '1px #f44336',
+    textStroke: '1px white',
     color: 'black',
+    fontWeight: '1000',
+    textShadow: '0 0 3px white',
+    textAlign: 'center',
     "@media (min-width: 300px)": {
-      width: "90%"
+      width: "90%",
     },
     "@media (min-width: 500px)": {
       width: "80%"

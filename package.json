@@ -1,8 +1,8 @@
 {
   "name": "red-crescent-app",
+  "homepage": "http://www.dondesang.info",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dondesang.info",
   "dependencies": {
     "@material-ui/core": "^4.7.0",
     "@material-ui/icons": "^4.5.1",

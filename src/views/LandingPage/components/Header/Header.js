@@ -41,7 +41,7 @@ export default function Header(props) {
         <span style={{color:'#f44336'}}>
           Sang
         </span>
-      </Button>;
+      </Button>
     </Link>
   return (
     <AppBar className={appBarClasses}>
