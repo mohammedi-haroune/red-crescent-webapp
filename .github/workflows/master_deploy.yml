@@ -19,13 +19,12 @@ jobs:
       run: npm run build
     - name: List files
       run: ls
-    - name: Run PWD
-      run: pwd
-    - uses: actions/checkout@master
-    - name: Upload ftp
-      uses: sebastianpopp/ftp-action@releases/v1
-      with:
-        host: ftp.dondesang.info
-        user: github@dondesang.info
-        password: ${{ secrets.FTP_PASSWORD }}
-        localDir: "$PWD/build"
+    - name: echo ${{ secrets.FTP_PASSWORD }}
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: ftp.dondesang.info
+        FTP_USERNAME: github@dondesang.info    
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        LOCAL_DIR: build
+        ARGS: --verbose
