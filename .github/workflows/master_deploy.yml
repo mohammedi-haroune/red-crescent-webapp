@@ -23,7 +23,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env:
         FTP_SERVER: ftp.dondesang.info
-        FTP_USERNAME: github
+        FTP_USERNAME: github@dondesang.info	
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         LOCAL_DIR: build
         ARGS: --delete
