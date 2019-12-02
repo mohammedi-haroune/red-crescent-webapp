@@ -17,15 +17,11 @@ jobs:
       run: npm install
     - name: Build the application
       run: npm run build
-    - name: List files
-      run: ls
-    - name: echo ${{ secrets.FTP_PASSWORD }}
-      run: echo ${{ secrets.FTP_PASSWORD }}
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env:
         FTP_SERVER: ftp.dondesang.info
         FTP_USERNAME: github@dondesang.info    
-        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        FTP_PASSWORD: 8CM4q^JYjXpL
         LOCAL_DIR: build
         ARGS: --verbose
