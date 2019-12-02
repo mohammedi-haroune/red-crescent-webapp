@@ -28,4 +28,4 @@ jobs:
         host: ftp.dondesang.info
         user: github@dondesang.info
         password: ${{ secrets.FTP_PASSWORD }}
-        localDir: "build"
+        localDir: "$PWD/build"
