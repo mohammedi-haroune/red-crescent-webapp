@@ -19,7 +19,8 @@ jobs:
       run: npm run build
     - name: List files
       run: ls
-
+    - name: Run PWD
+      run: pwd
     - uses: actions/checkout@master
     - name: Upload ftp
       uses: sebastianpopp/ftp-action@releases/v1
