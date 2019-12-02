@@ -26,4 +26,4 @@ jobs:
         FTP_USERNAME: github@dondesang.info	
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         LOCAL_DIR: build
-        ARGS: --delete
+        ARGS: --delete --verbose --continue
