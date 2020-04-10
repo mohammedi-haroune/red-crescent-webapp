@@ -1,0 +1,24 @@
+[
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[27.866667,-0.283333]
+      },
+      "properties":{
+        "name": "Adrar",
+        "code": 1
+      }
+    },
+    {
+        "type":"Feature",
+        "geometry":{
+          "type":"Point",
+          "coordinates":[36.166667,1.333333]
+        },
+        "properties":{
+          "name": "Chlef",
+          "code": 2
+        }
+      }
+]

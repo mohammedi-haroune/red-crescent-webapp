@@ -7,25 +7,20 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import { Link } from "react-router-dom";
 import { Button } from '@material-ui/core';
-type State = {
-  lat: number,
-  lng: number,
-  zoom: number,
-}
+
 
 export default class MapHospitalsPage extends Component<{}, State> {
   state = {
-    lat: 36.7628,
-    lng: 3.0531,
     zoom: 12,
   }
 
+  
   render(){
-    const position = [this.state.lat, this.state.lng];
+    const center = this.props.history.location.state.center;
     let markers = algiers_hospitals;
 
        return (
-         <Map center={position} zoom={this.state.zoom} id="map">
+         <Map center={center} zoom={this.state.zoom} id="map">
 
            <div style={{backgroundColor: 'transparent',position:'fixed', zIndex:'1000', top:'5px', right:'10px'}}>
              <Link to={"/"} style={{color: 'inherit'}}>
