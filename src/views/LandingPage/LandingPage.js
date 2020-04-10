@@ -8,6 +8,7 @@ import Header from "./components/Header/Header.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
+import CustomSelect from "components/CustomSelect/CustomSelect.js";
 import useStyles from "assets/jss/views/landingPage.js";
 import { Link } from "react-router-dom";
 import Popup from "reactjs-popup";
@@ -23,14 +24,21 @@ class LandingPage extends Component{
     super(props);
     this.state = {
       popUp: false,
+      selectedCoordinates: [0,0]
     };
+    this.handleChange = this.handleChange.bind(this);
   }
   setPopUp = (open) => {
     this.setState({ popUp: open });
   }
+  handleChange = (coordinates)=>
+  { 
+    this.setState({ selectedCoordinates: coordinates});
+  }
 
   render() {
     const { classes, ...rest } = this.props;
+    const {selectedCoordinates} = this.state;
     return (
         <div className={classNames(classes.container, "bg")}>
 
@@ -69,7 +77,17 @@ class LandingPage extends Component{
                   S’effectue tous les jours dans les hopitaux.
                 </h4>
                 <br />
-                <Link to={"/hopitaux"} style={{color: 'inherit'}}>
+                <GridItem className={classes.gridContainer} xs={6} sm={6} md={6}>
+                  <CustomSelect  handleChange={this.handleChange}/>
+                </GridItem>
+
+                <GridItem className={classes.gridContainer} xs={8} sm={8} md={8}>
+                <Link to={{
+                            pathname: '/hopitaux',
+                            state: {
+                              center: selectedCoordinates
+                            }
+                          }}  style={{color: 'inherit'}}>
 
                   <Button
                     color="danger"
@@ -81,6 +99,8 @@ class LandingPage extends Component{
                     Hopitaux Don de Sang
                   </Button>
                 </Link>
+                </GridItem>
+
               </GridItem>
             </GridContainer>
           </div>
