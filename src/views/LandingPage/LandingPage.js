@@ -77,7 +77,11 @@ class LandingPage extends Component{
                   S’effectue tous les jours dans les hopitaux.
                 </h4>
                 <br />
-                <CustomSelect handleChange={this.handleChange}/>
+                <GridItem className={classes.gridContainer} xs={6} sm={6} md={6}>
+                  <CustomSelect  handleChange={this.handleChange}/>
+                </GridItem>
+
+                <GridItem className={classes.gridContainer} xs={8} sm={8} md={8}>
                 <Link to={{
                             pathname: '/hopitaux',
                             state: {
@@ -95,6 +99,8 @@ class LandingPage extends Component{
                     Hopitaux Don de Sang
                   </Button>
                 </Link>
+                </GridItem>
+
               </GridItem>
             </GridContainer>
           </div>

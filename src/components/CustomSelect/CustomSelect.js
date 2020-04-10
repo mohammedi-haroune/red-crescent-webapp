@@ -2,6 +2,7 @@ import React from 'react';
 import wilayas from './wilayas.json';
 import {FormControl,Select,MenuItem,InputLabel} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+import { createMuiTheme } from '@material-ui/core/styles';
 
 
 export default class CustomSelect extends React.Component{
@@ -20,6 +21,16 @@ constructor(props) {
        this.setState({selectedCoordinates:event.target.value});
   };
 
+   theme = () => createMuiTheme({
+    palette: {
+      secondary: {
+        light: '#ff7961',
+        main: '#ba000d',
+        dark: '#ba000d',
+        contrastText: '#000',
+      },
+    },
+  });
    useStyles = ()=> makeStyles((theme) => ({
     formControl: {
       margin: theme.spacing(1),
@@ -29,6 +40,9 @@ constructor(props) {
     selectEmpty: {
       marginTop: theme.spacing(2),
     },
+    select : {
+      backgroundColor: theme.colors.grayDark
+    }
   }));
 
 render() { 
@@ -37,17 +51,21 @@ render() {
     const {selectedCoordinates} = this.state;
     return(
     <>
-  <FormControl variant="outlined" className={classes.formControl} color='secondary'>
+  <FormControl variant="filled" className={classes.formControl} color='secondary'>
+       <InputLabel htmlFor="age-native-simple">Wialaya</InputLabel>
 
-        <Select
-                  className={classes.selectEmpty}
+        <Select native
+         className={classes.selectEmpty}
           id="demo-simple-select"
           value={selectedCoordinates}
           onChange={this.handleChange}
           key="Wilaya"
-        >
+          inputProps={{
+            name: 'wilaya',
+            id: 'age-native-simple',
+          }}        >
 
-        {data.map((item, index) =>{return ( <MenuItem value={item.geometry.coordinates} key={index}>{item.properties.code} - {item.properties.name}</MenuItem>);})}
+        {data.map((item, index) =>{return ( <option value={item.geometry.coordinates}>{item.properties.code} - {item.properties.name}</option>);})}
         
         </Select>
       </FormControl>
