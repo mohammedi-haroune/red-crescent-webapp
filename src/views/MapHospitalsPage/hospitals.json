@@ -190,5 +190,3306 @@
       "imageUrl": "/pictures/hospitals/EHS_Abderrahmani.jpg",
       "location": "36°44'03.0\"N 3°03'11.9\"E"
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        27.87141666666667,
+        -0.2801666666666667
+      ]
+    },
+    "properties": {
+      "name": "EPH Adrar \"Ibn Sina\"",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "27\u00b052'17.1\"N 0\u00b016'48.6\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        29.25588888888889,
+        0.23377777777777778
+      ]
+    },
+    "properties": {
+      "name": "EPH Timimoun",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "29\u00b015'21.2\"N 0\u00b014'01.6\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        26.721833333333333,
+        0.1691111111111111
+      ]
+    },
+    "properties": {
+      "name": "EPH Reggane",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "26\u00b043'18.6\"N 0\u00b010'08.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        26.973249999999997,
+        1.0871666666666666
+      ]
+    },
+    "properties": {
+      "name": "EPH Aoulef",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "26\u00b058'23.7\"N 1\u00b005'13.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.14644444444444,
+        1.3128055555555556
+      ]
+    },
+    "properties": {
+      "name": "EPH Chlef \"Fr\u00e8res Khellif Chorfa\"",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b008'47.2\"N 1\u00b018'46.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.50288888888889,
+        1.2930833333333331
+      ]
+    },
+    "properties": {
+      "name": "EPH Tenes Zighoud Youcef",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b030'10.4\"N 1\u00b017'35.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.16005555555555,
+        1.3224722222222223
+      ]
+    },
+    "properties": {
+      "name": "EPH Les s\u0153urs Badji",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b009'36.2\"N 1\u00b019'20.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.10586111111111,
+        1.1051666666666669
+      ]
+    },
+    "properties": {
+      "name": "EPH \u00a0Sobha Boukadir",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b006'21.1\"N 1\u00b006'18.6\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.20461111111111,
+        1.2602777777777778
+      ]
+    },
+    "properties": {
+      "name": "EPH Chettia ouled fares",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b012'16.6\"N 1\u00b015'37.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        33.80544444444444,
+        2.8581944444444445
+      ]
+    },
+    "properties": {
+      "name": "EPH Laghouat",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "33\u00b048'19.6\"N 2\u00b051'29.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.11761111111111,
+        2.0948333333333333
+      ]
+    },
+    "properties": {
+      "name": "EPH Aflou",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "34\u00b007'03.4\"N 2\u00b005'41.4\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.87063888888889,
+        7.112805555555555
+      ]
+    },
+    "properties": {
+      "name": "EPH Oum El Bouaghi \"Mohamed Boudiaf\"",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b052'14.3\"N 7\u00b006'46.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.87813888888889,
+        7.109166666666666
+      ]
+    },
+    "properties": {
+      "name": "EPH \u00a0Ibn sina",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b052'41.3\"N 7\u00b006'33.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.0175,
+        6.5705277777777775
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain Mlila",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b001'03.0\"N 6\u00b034'13.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.63130555555556,
+        7.664027777777778
+      ]
+    },
+    "properties": {
+      "name": "EPH Meskiana",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b037'52.7\"N 7\u00b039'50.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.97405555555556,
+        6.877055555555556
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain-El-Fekroun",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b058'26.6\"N 6\u00b052'37.4\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.79505555555556,
+        7.394166666666667
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain El Beida \"Boumali Mouhamed\"",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b047'42.2\"N 7\u00b023'39.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.79083333333333,
+        7.383333333333334
+      ]
+    },
+    "properties": {
+      "name": "H\u00f4pital Dr ZERDANI Salah",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b047'27.0\"N 7\u00b023'00.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.53308333333333,
+        6.189361111111111
+      ]
+    },
+    "properties": {
+      "name": "CHU Batna \"Benflis Touhami\"",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b031'59.1\"N 6\u00b011'21.7\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.260305555555554,
+        6.358333333333333
+      ]
+    },
+    "properties": {
+      "name": "EPH Arris \"Moustapha Benboulaid\"",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b015'37.1\"N 6\u00b021'30.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.38536111111111,
+        5.366305555555555
+      ]
+    },
+    "properties": {
+      "name": "EPH Barika \"Slimane Amirat\"",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b023'07.3\"N 5\u00b021'58.7\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.56916666666667,
+        5.617222222222223
+      ]
+    },
+    "properties": {
+      "name": "EPH N'Gaous",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b034'09.0\"N 5\u00b037'02.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.627722222222225,
+        5.9101388888888895
+      ]
+    },
+    "properties": {
+      "name": "EPH Merouana \"Ali Nemeur\"",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b037'39.8\"N 5\u00b054'36.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.38022222222222,
+        5.898138888888888
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain Touta",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b022'48.8\"N 5\u00b053'53.3\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.54183333333333,
+        6.1658333333333335
+      ]
+    },
+    "properties": {
+      "name": "EHS M\u00e8re-Enfant \"Meriem bouatoura\"",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b032'30.6\"N 6\u00b009'57.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.754888888888885,
+        5.051027777777778
+      ]
+    },
+    "properties": {
+      "name": "CHU Bejaia",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b045'17.6\"N 5\u00b003'03.7\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.45933333333333,
+        4.525527777777778
+      ]
+    },
+    "properties": {
+      "name": "EPH Akbou",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b027'33.6\"N 4\u00b031'31.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.61452777777778,
+        4.698111111111111
+      ]
+    },
+    "properties": {
+      "name": "EPH Sidi Aich",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b036'52.3\"N 4\u00b041'53.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.49311111111111,
+        5.278111111111111
+      ]
+    },
+    "properties": {
+      "name": "EPH Kherrata",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b029'35.2\"N 5\u00b016'41.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.641777777777776,
+        4.895138888888888
+      ]
+    },
+    "properties": {
+      "name": "EPH Oued-Amizour",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b038'30.4\"N 4\u00b053'42.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.63736111111111,
+        5.240666666666667
+      ]
+    },
+    "properties": {
+      "name": "EPH Aokas",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b038'14.5\"N 5\u00b014'26.4\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.84913888888889,
+        5.743222222222222
+      ]
+    },
+    "properties": {
+      "name": "EPH Biskra \"Bachir Bennacer\"",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "34\u00b050'56.9\"N 5\u00b044'35.6\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.42975,
+        5.0601666666666665
+      ]
+    },
+    "properties": {
+      "name": "EPH Ouled Djellal",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "34\u00b025'47.1\"N 5\u00b003'36.6\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.72533333333334,
+        5.382055555555555
+      ]
+    },
+    "properties": {
+      "name": "EPH Tolga",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "34\u00b043'31.2\"N 5\u00b022'55.4\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        31.602055555555555,
+        -2.236638888888889
+      ]
+    },
+    "properties": {
+      "name": "EPH B\u00e9char",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "31\u00b036'07.4\"N 2\u00b014'11.9\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        30.130166666666668,
+        -2.1611666666666665
+      ]
+    },
+    "properties": {
+      "name": "EPH B\u00e9ni Abbes",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "30\u00b007'48.6\"N 2\u00b009'40.2\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        31.002083333333335,
+        -2.746888888888889
+      ]
+    },
+    "properties": {
+      "name": "EPH Abadla",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "31\u00b000'07.5\"N 2\u00b044'48.8\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.48436111111111,
+        2.7980277777777776
+      ]
+    },
+    "properties": {
+      "name": "CHU Blida",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b029'03.7\"N 2\u00b047'52.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.57694444444445,
+        2.90975
+      ]
+    },
+    "properties": {
+      "name": "EPH Boufarik",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b034'37.0\"N 2\u00b054'35.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.471611111111116,
+        2.6280555555555556
+      ]
+    },
+    "properties": {
+      "name": "EPH El-Affroun",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b028'17.8\"N 2\u00b037'41.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.59561111111111,
+        3.2195833333333335
+      ]
+    },
+    "properties": {
+      "name": "Hopital Meftah",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b035'44.2\"N 3\u00b013'10.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.370583333333336,
+        3.8835555555555556
+      ]
+    },
+    "properties": {
+      "name": "EPH Bouira",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b022'14.1\"N 3\u00b053'00.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.14563888888889,
+        3.6892500000000004
+      ]
+    },
+    "properties": {
+      "name": "EPH Sour El Ghozlane",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b008'44.3\"N 3\u00b041'21.3\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.566861111111116,
+        3.5964722222222223
+      ]
+    },
+    "properties": {
+      "name": "EPH Lakhdaria",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b034'00.7\"N 3\u00b035'47.3\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.36413888888889,
+        4.269833333333334
+      ]
+    },
+    "properties": {
+      "name": "EPH M'chedellah",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b021'50.9\"N 4\u00b016'11.4\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.296388888888885,
+        3.6758333333333333
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain-Bessam",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b017'47.0\"N 3\u00b040'33.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        22.77552777777778,
+        5.528472222222222
+      ]
+    },
+    "properties": {
+      "name": "EPH Tamanrasset",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "22\u00b046'31.9\"N 5\u00b031'42.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        27.19547222222222,
+        2.4868055555555557
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain Saleh",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "27\u00b011'43.7\"N 2\u00b029'12.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.757416666666664,
+        8.051805555555557
+      ]
+    },
+    "properties": {
+      "name": "EPH Bir El Ater",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "34\u00b045'26.7\"N 8\u00b003'06.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.86152777777778,
+        7.891583333333333
+      ]
+    },
+    "properties": {
+      "name": "EPH El-Aouinet",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b051'41.5\"N 7\u00b053'29.7\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.26125,
+        7.747833333333333
+      ]
+    },
+    "properties": {
+      "name": "EPH Cheria",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b015'40.5\"N 7\u00b044'52.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.939722222222215,
+        8.134666666666666
+      ]
+    },
+    "properties": {
+      "name": "EPH Ouenza",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b056'23.0\"N 8\u00b008'04.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.67347222222222,
+        8.011444444444445
+      ]
+    },
+    "properties": {
+      "name": "EPH Morsott",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b040'24.5\"N 8\u00b000'41.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.87636111111111,
+        -1.324861111111111
+      ]
+    },
+    "properties": {
+      "name": "CHU Tlemcen",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "34\u00b052'34.9\"N 1\u00b019'29.5\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.84030555555556,
+        -1.7342777777777778
+      ]
+    },
+    "properties": {
+      "name": "EPH Maghnia",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "34\u00b050'25.1\"N 1\u00b044'03.4\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.644,
+        -1.32475
+      ]
+    },
+    "properties": {
+      "name": "EPH Sebdou",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "34\u00b038'38.4\"N 1\u00b019'29.1\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.08808333333334,
+        -1.8600277777777778
+      ]
+    },
+    "properties": {
+      "name": "EPH Ghazaouet",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b005'17.1\"N 1\u00b051'36.1\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.01775,
+        -1.7586666666666666
+      ]
+    },
+    "properties": {
+      "name": "EPH Nedrouma",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b001'03.9\"N 1\u00b045'31.2\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.04830555555555,
+        -1.425388888888889
+      ]
+    },
+    "properties": {
+      "name": "EPH Remchi",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b002'53.9\"N 1\u00b025'31.4\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.38388888888889,
+        1.3147222222222223
+      ]
+    },
+    "properties": {
+      "name": "EPH Tiaret",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b023'02.0\"N 1\u00b018'53.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.43288888888889,
+        1.7683333333333333
+      ]
+    },
+    "properties": {
+      "name": "EPH Mahdia",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b025'58.4\"N 1\u00b046'06.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.22813888888889,
+        2.309611111111111
+      ]
+    },
+    "properties": {
+      "name": "EPH Ksar Chellala",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b013'41.3\"N 2\u00b018'34.6\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.062416666666664,
+        1.053388888888889
+      ]
+    },
+    "properties": {
+      "name": "EPH Frenda",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b003'44.7\"N 1\u00b003'12.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.18658333333333,
+        1.4914444444444446
+      ]
+    },
+    "properties": {
+      "name": "EPH Sougueur",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b011'11.7\"N 1\u00b029'29.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.347388888888894,
+        1.3411111111111111
+      ]
+    },
+    "properties": {
+      "name": "EHS Maternit\u00e9 Tiaret",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b020'50.6\"N 1\u00b020'28.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.70944444444445,
+        4.054749999999999
+      ]
+    },
+    "properties": {
+      "name": "CHU Tizi Ouzou",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b042'34.0\"N 4\u00b003'17.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.57080555555556,
+        4.289416666666667
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain El Hammam",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b034'14.9\"N 4\u00b017'21.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.531666666666666,
+        3.8298611111111107
+      ]
+    },
+    "properties": {
+      "name": "EPH Draa El Mizane",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b031'54.0\"N 3\u00b049'47.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.748472222222226,
+        4.375555555555555
+      ]
+    },
+    "properties": {
+      "name": "EPH Azzazga",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b044'54.5\"N 4\u00b022'32.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.64480555555556,
+        4.19925
+      ]
+    },
+    "properties": {
+      "name": "EPH Larbaa Nath-Irathen",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b038'41.3\"N 4\u00b011'57.3\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.538555555555554,
+        3.956666666666667
+      ]
+    },
+    "properties": {
+      "name": "EPH Boghni",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b032'18.8\"N 3\u00b057'24.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.885555555555555,
+        4.424805555555555
+      ]
+    },
+    "properties": {
+      "name": "EPH Azzefoun",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b053'08.0\"N 4\u00b025'29.3\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.89225,
+        4.126222222222222
+      ]
+    },
+    "properties": {
+      "name": "EPH Tegzirt",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b053'32.1\"N 4\u00b007'34.4\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.72741666666667,
+        3.968527777777778
+      ]
+    },
+    "properties": {
+      "name": "EHS Draa Ben Khedda",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b043'38.7\"N 3\u00b058'06.7\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.762861111111114,
+        3.0531666666666664
+      ]
+    },
+    "properties": {
+      "name": "CHU Mustapha",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b045'46.3\"N 3\u00b003'11.4\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.78033333333333,
+        2.981388888888889
+      ]
+    },
+    "properties": {
+      "name": "CHU B\u00e9ni Messous",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b046'49.2\"N 2\u00b058'53.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.793416666666666,
+        3.0506944444444444
+      ]
+    },
+    "properties": {
+      "name": "CHU Bab El Oued",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b047'36.3\"N 3\u00b003'02.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.73588888888889,
+        3.1044722222222223
+      ]
+    },
+    "properties": {
+      "name": "CHU Husein dey",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b044'09.2\"N 3\u00b006'16.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.704638888888894,
+        3.125777777777778
+      ]
+    },
+    "properties": {
+      "name": "EHS Salim Z'mirli",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b042'16.7\"N 3\u00b007'32.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.768055555555556,
+        3.0003333333333333
+      ]
+    },
+    "properties": {
+      "name": "EHS Dr Madouche",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b046'05.0\"N 3\u00b000'01.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.66630555555555,
+        2.9428055555555557
+      ]
+    },
+    "properties": {
+      "name": "CHU Dou\u00e9ra",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b039'58.7\"N 2\u00b056'34.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.78711111111111,
+        3.0582499999999997
+      ]
+    },
+    "properties": {
+      "name": "EHS Ait Idir",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b047'13.6\"N 3\u00b003'29.7\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.772666666666666,
+        3.040083333333333
+      ]
+    },
+    "properties": {
+      "name": "EPH El Biar",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b046'21.6\"N 3\u00b002'24.3\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.725750000000005,
+        3.0872222222222225
+      ]
+    },
+    "properties": {
+      "name": "EPH Kouba",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b043'32.7\"N 3\u00b005'14.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.81075,
+        2.979777777777778
+      ]
+    },
+    "properties": {
+      "name": "EPH Bologhine",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b048'38.7\"N 2\u00b058'47.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.720444444444446,
+        3.14775
+      ]
+    },
+    "properties": {
+      "name": "EPH El Harrach",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b043'13.6\"N 3\u00b008'51.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.7895,
+        3.296222222222222
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain Taya",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b047'22.2\"N 3\u00b017'46.4\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.70022222222222,
+        2.8428333333333335
+      ]
+    },
+    "properties": {
+      "name": "EPH Z\u00e9ralda",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b042'00.8\"N 2\u00b050'34.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.73561111111111,
+        3.2856944444444443
+      ]
+    },
+    "properties": {
+      "name": "EPH Rouiba",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b044'08.2\"N 3\u00b017'08.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.73416666666667,
+        3.0533055555555553
+      ]
+    },
+    "properties": {
+      "name": "EHS Abderrahmani",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b044'03.0\"N 3\u00b003'11.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.664138888888886,
+        3.2645833333333334
+      ]
+    },
+    "properties": {
+      "name": "EPH Djelfa",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "34\u00b039'50.9\"N 3\u00b015'52.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.08661111111111,
+        3.02325
+      ]
+    },
+    "properties": {
+      "name": "EPH Hassi Bahbah",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b005'11.8\"N 3\u00b001'23.7\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.15694444444444,
+        3.4841111111111114
+      ]
+    },
+    "properties": {
+      "name": "EPH Messaad",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "34\u00b009'25.0\"N 3\u00b029'02.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.45536111111112,
+        2.9042777777777777
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain Ouassara",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b027'19.3\"N 2\u00b054'15.4\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.662,
+        3.265388888888889
+      ]
+    },
+    "properties": {
+      "name": "EHS M\u00e8re et Enfant Djelfa",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "34\u00b039'43.2\"N 3\u00b015'55.4\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.45619444444445,
+        2.530222222222222
+      ]
+    },
+    "properties": {
+      "name": "EPH El Idrissia",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "34\u00b027'22.3\"N 2\u00b031'48.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.81327777777778,
+        5.766055555555556
+      ]
+    },
+    "properties": {
+      "name": "EPH Jijel",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b048'47.8\"N 5\u00b045'57.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.78930555555555,
+        5.907194444444444
+      ]
+    },
+    "properties": {
+      "name": "EPH Taher",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b047'21.5\"N 5\u00b054'25.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.758805555555554,
+        6.285472222222222
+      ]
+    },
+    "properties": {
+      "name": "EPH El Milia",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b045'31.7\"N 6\u00b017'07.7\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.19222222222222,
+        5.403111111111111
+      ]
+    },
+    "properties": {
+      "name": "CHU S\u00e9tif",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b011'32.0\"N 5\u00b024'11.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.807694444444444,
+        5.50575
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain Aazel",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b048'27.7\"N 5\u00b030'20.7\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.42491666666666,
+        4.824027777777777
+      ]
+    },
+    "properties": {
+      "name": "EPH Beni Ouartilene",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b025'29.7\"N 4\u00b049'26.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.91319444444444,
+        5.287555555555556
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain Oulm\u00e9ne",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b054'47.5\"N 5\u00b017'15.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.14941666666667,
+        5.683694444444445
+      ]
+    },
+    "properties": {
+      "name": "EPH El Eulma",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b008'57.9\"N 5\u00b041'01.3\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.33830555555556,
+        5.092388888888888
+      ]
+    },
+    "properties": {
+      "name": "EPH Bougaa",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b020'17.9\"N 5\u00b005'32.6\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.36552777777778,
+        5.496361111111111
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain Kebira",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b021'55.9\"N 5\u00b029'46.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.82961111111111,
+        0.15919444444444444
+      ]
+    },
+    "properties": {
+      "name": "EPH Saida",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "34\u00b049'46.6\"N 0\u00b009'33.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.83986111111111,
+        0.15663888888888888
+      ]
+    },
+    "properties": {
+      "name": "EHS \"Hamdane Bakhta\"",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "34\u00b050'23.5\"N 0\u00b009'23.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.88205555555555,
+        6.908916666666667
+      ]
+    },
+    "properties": {
+      "name": "EPH Skikda",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b052'55.4\"N 6\u00b054'32.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.86225,
+        6.898638888888889
+      ]
+    },
+    "properties": {
+      "name": "EH Skikda",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b051'44.1\"N 6\u00b053'55.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.655249999999995,
+        6.838666666666667
+      ]
+    },
+    "properties": {
+      "name": "EPH El Harrouch",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b039'18.9\"N 6\u00b050'19.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        37.00977777777778,
+        6.558305555555555
+      ]
+    },
+    "properties": {
+      "name": "EPH Collo",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "37\u00b000'35.2\"N 6\u00b033'29.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.741527777777776,
+        7.10211111111111
+      ]
+    },
+    "properties": {
+      "name": "EPH Azzaba",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b044'29.5\"N 7\u00b006'07.6\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.839194444444445,
+        6.640805555555555
+      ]
+    },
+    "properties": {
+      "name": "EPH Tamalous",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b050'21.1\"N 6\u00b038'26.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.183277777777775,
+        -0.6466666666666666
+      ]
+    },
+    "properties": {
+      "name": "CHU Sidi Bel Abbes",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b010'59.8\"N 0\u00b038'48.0\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.77883333333333,
+        -0.5651666666666667
+      ]
+    },
+    "properties": {
+      "name": "EPH Telagh",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "34\u00b046'43.8\"N 0\u00b033'54.6\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.90969444444444,
+        7.747861111111111
+      ]
+    },
+    "properties": {
+      "name": "CHU Annaba",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b054'34.9\"N 7\u00b044'52.3\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.85566666666667,
+        7.73775
+      ]
+    },
+    "properties": {
+      "name": "EPH EL-Bouni",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b051'20.4\"N 7\u00b044'15.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.804027777777776,
+        7.744666666666666
+      ]
+    },
+    "properties": {
+      "name": "EPH El Hadjar",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b048'14.5\"N 7\u00b044'40.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.65080555555556,
+        7.590055555555555
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain barda",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b039'02.9\"N 7\u00b035'24.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.456138888888894,
+        7.435527777777778
+      ]
+    },
+    "properties": {
+      "name": "EPH Guelma",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b027'22.1\"N 7\u00b026'07.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.31502777777777,
+        7.162666666666667
+      ]
+    },
+    "properties": {
+      "name": "EPH Oued Zenati",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b018'54.1\"N 7\u00b009'45.6\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.47236111111111,
+        7.725333333333333
+      ]
+    },
+    "properties": {
+      "name": "EPH Bouchegouf",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b028'20.5\"N 7\u00b043'31.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.372416666666666,
+        6.6178333333333335
+      ]
+    },
+    "properties": {
+      "name": "CHU Constantine",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b022'20.7\"N 6\u00b037'04.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.36027777777778,
+        6.642527777777778
+      ]
+    },
+    "properties": {
+      "name": "EHS Daksi",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b021'37.0\"N 6\u00b038'33.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.35577777777778,
+        6.653472222222223
+      ]
+    },
+    "properties": {
+      "name": "EHS El Riadh",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b021'20.8\"N 6\u00b039'12.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.362500000000004,
+        6.638944444444444
+      ]
+    },
+    "properties": {
+      "name": "EHS Sidi Mebrouk",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b021'45.0\"N 6\u00b038'20.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.53680555555555,
+        6.715222222222223
+      ]
+    },
+    "properties": {
+      "name": "EPH Zighout Youcef",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b032'12.5\"N 6\u00b042'54.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.35152777777778,
+        6.59525
+      ]
+    },
+    "properties": {
+      "name": "EPH \u00a0El Bir",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b021'05.5\"N 6\u00b035'42.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.26108333333333,
+        6.708944444444445
+      ]
+    },
+    "properties": {
+      "name": "EPH El Khroub",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b015'39.9\"N 6\u00b042'32.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.258361111111114,
+        6.579916666666667
+      ]
+    },
+    "properties": {
+      "name": "EPH Ali Mendjeli",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b015'30.1\"N 6\u00b034'47.7\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.45377777777778,
+        6.630444444444445
+      ]
+    },
+    "properties": {
+      "name": "EH Didouche Mourad",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b027'13.6\"N 6\u00b037'49.6\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.25955555555556,
+        2.75775
+      ]
+    },
+    "properties": {
+      "name": "EPH M\u00e9d\u00e9a",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b015'34.4\"N 2\u00b045'27.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.88586111111111,
+        2.7471944444444447
+      ]
+    },
+    "properties": {
+      "name": "EPH Ksar El Boukhari",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b053'09.1\"N 2\u00b044'49.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.22347222222223,
+        3.3003888888888886
+      ]
+    },
+    "properties": {
+      "name": "EPH B\u00e9ni Slimane",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b013'24.5\"N 3\u00b018'01.4\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.13558333333333,
+        2.9143333333333334
+      ]
+    },
+    "properties": {
+      "name": "EPH Berrouaghia",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b008'08.1\"N 2\u00b054'51.6\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.40752777777777,
+        3.3080555555555553
+      ]
+    },
+    "properties": {
+      "name": "EPH Tablat",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b024'27.1\"N 3\u00b018'29.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.89036111111111,
+        3.146638888888889
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain Boucif",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b053'25.3\"N 3\u00b008'47.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.934555555555555,
+        0.09419444444444444
+      ]
+    },
+    "properties": {
+      "name": "EPH Mostaganem",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b056'04.4\"N 0\u00b005'39.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.00094444444444,
+        0.28977777777777775
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain Tedles",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b000'03.4\"N 0\u00b017'23.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.0965,
+        0.40919444444444447
+      ]
+    },
+    "properties": {
+      "name": "EPH Sidi ali",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b005'47.4\"N 0\u00b024'33.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.92525,
+        0.09630555555555555
+      ]
+    },
+    "properties": {
+      "name": "EHS M\u00e8re-Enfant Lala Kheira",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b055'30.9\"N 0\u00b005'46.7\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.71452777777778,
+        4.550305555555555
+      ]
+    },
+    "properties": {
+      "name": "EPH M'Sila",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b042'52.3\"N 4\u00b033'01.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.20113888888889,
+        4.1603055555555555
+      ]
+    },
+    "properties": {
+      "name": "EPH Boussa\u00e2da",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b012'04.1\"N 4\u00b009'37.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.85905555555556,
+        4.153222222222222
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain El Melh",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "34\u00b051'32.6\"N 4\u00b009'11.6\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.89202777777778,
+        3.7670833333333333
+      ]
+    },
+    "properties": {
+      "name": "EPH Sidi Aissa",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b053'31.3\"N 3\u00b046'01.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.39875,
+        0.14097222222222222
+      ]
+    },
+    "properties": {
+      "name": "EPH Mascara \"Yssad Khaled\"",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b023'55.5\"N 0\u00b008'27.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.399972222222225,
+        0.15852777777777777
+      ]
+    },
+    "properties": {
+      "name": "EPH Mascara \"Meslem Tyeb\"",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b023'59.9\"N 0\u00b009'30.7\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.421861111111106,
+        0.3222222222222222
+      ]
+    },
+    "properties": {
+      "name": "EPH Tighennif",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b025'18.7\"N 0\u00b019'20.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.24736111111111,
+        0.15275
+      ]
+    },
+    "properties": {
+      "name": "EPH Ghriss",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b014'50.5\"N 0\u00b009'09.9\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.591972222222225,
+        0.08152777777777778
+      ]
+    },
+    "properties": {
+      "name": "EPH Mohammadia",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b035'31.1\"N 0\u00b004'53.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.53102777777778,
+        -0.1889722222222222
+      ]
+    },
+    "properties": {
+      "name": "EPH\u00a0Sig",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b031'51.7\"N 0\u00b011'20.3\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        31.961944444444445,
+        5.330638888888888
+      ]
+    },
+    "properties": {
+      "name": "EPH Ouargla",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "31\u00b057'43.0\"N 5\u00b019'50.3\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        31.690555555555555,
+        6.064444444444444
+      ]
+    },
+    "properties": {
+      "name": "EPH Hassi Messaoud",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "31\u00b041'26.0\"N 6\u00b003'52.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        33.10080555555556,
+        6.061166666666667
+      ]
+    },
+    "properties": {
+      "name": "EPH Touggourt",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "33\u00b006'02.9\"N 6\u00b003'40.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        32.61736111111111,
+        5.512388888888889
+      ]
+    },
+    "properties": {
+      "name": "EPSP El Hadjira",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "32\u00b037'02.5\"N 5\u00b030'44.6\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        33.08388888888889,
+        6.399111111111112
+      ]
+    },
+    "properties": {
+      "name": "EPH Taibet",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "33\u00b005'02.0\"N 6\u00b023'56.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.69402777777778,
+        -0.6424722222222222
+      ]
+    },
+    "properties": {
+      "name": "CHU Oran",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b041'38.5\"N 0\u00b038'32.9\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.69713888888889,
+        -0.5801111111111111
+      ]
+    },
+    "properties": {
+      "name": "EHU Oran",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b041'49.7\"N 0\u00b034'48.4\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.82447222222223,
+        -0.35277777777777775
+      ]
+    },
+    "properties": {
+      "name": "EPH Arzew",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b049'28.1\"N 0\u00b021'10.0\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.738166666666665,
+        -0.5722222222222222
+      ]
+    },
+    "properties": {
+      "name": "EPH Canastel",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b044'17.4\"N 0\u00b034'20.0\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.741055555555555,
+        -0.7578611111111111
+      ]
+    },
+    "properties": {
+      "name": "EH Ain turck \"Akid\u00a0Othmane\"",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b044'27.8\"N 0\u00b045'28.3\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.65833333333333,
+        -0.6958333333333333
+      ]
+    },
+    "properties": {
+      "name": "EHS\u00a0Emir Abd\u00a0El Kader",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b039'30.0\"N 0\u00b041'45.0\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        33.67258333333333,
+        1.0155555555555555
+      ]
+    },
+    "properties": {
+      "name": "EPH El Bayadh",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "33\u00b040'21.3\"N 1\u00b000'56.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        32.89577777777778,
+        0.5493333333333333
+      ]
+    },
+    "properties": {
+      "name": "EPH El Abiodh \"Sidi Cheikh\"",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "32\u00b053'44.8\"N 0\u00b032'57.6\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        26.498083333333334,
+        8.473
+      ]
+    },
+    "properties": {
+      "name": "EPH Illizi",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "26\u00b029'53.1\"N 8\u00b028'22.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        24.478138888888886,
+        9.5095
+      ]
+    },
+    "properties": {
+      "name": "EPH Djanet",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "24\u00b028'41.3\"N 9\u00b030'34.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.043000000000003,
+        9.577527777777778
+      ]
+    },
+    "properties": {
+      "name": "EPSP In Amenas",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "28\u00b002'34.8\"N 9\u00b034'39.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.062666666666665,
+        4.7705
+      ]
+    },
+    "properties": {
+      "name": "EPH Bordj Bou Arreridj",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b003'45.6\"N 4\u00b046'13.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.9415,
+        5.040194444444444
+      ]
+    },
+    "properties": {
+      "name": "EPH Ras El Oued",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b056'29.4\"N 5\u00b002'24.7\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.72738888888889,
+        3.555638888888889
+      ]
+    },
+    "properties": {
+      "name": "EPH Th\u00e9nia",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b043'38.6\"N 3\u00b033'20.3\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.916888888888884,
+        3.8950833333333335
+      ]
+    },
+    "properties": {
+      "name": "EPH Dellys",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b055'00.8\"N 3\u00b053'42.3\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.74427777777778,
+        3.723055555555556
+      ]
+    },
+    "properties": {
+      "name": "EPH Borj M\u00e9naiel",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b044'39.4\"N 3\u00b043'23.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.76394444444445,
+        8.323638888888889
+      ]
+    },
+    "properties": {
+      "name": "EPH El Taref",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b045'50.2\"N 8\u00b019'25.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.8955,
+        8.443166666666666
+      ]
+    },
+    "properties": {
+      "name": "EPH El Kala",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b053'43.8\"N 8\u00b026'35.4\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.51063888888889,
+        8.101138888888888
+      ]
+    },
+    "properties": {
+      "name": "EPH Bouhadjar",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b030'38.3\"N 8\u00b006'04.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        27.67527777777778,
+        -8.1395
+      ]
+    },
+    "properties": {
+      "name": "EPH Tindouf",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "27\u00b040'31.0\"N 8\u00b008'22.2\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.60080555555556,
+        1.8211944444444443
+      ]
+    },
+    "properties": {
+      "name": "EPH Tissemsilt",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b036'02.9\"N 1\u00b049'16.3\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.87872222222222,
+        2.0204999999999997
+      ]
+    },
+    "properties": {
+      "name": "EPH Theniet El Had",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b052'43.4\"N 2\u00b001'13.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.870666666666665,
+        1.6182777777777777
+      ]
+    },
+    "properties": {
+      "name": "EPH Bordj Bou N\u00e2ama",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b052'14.4\"N 1\u00b037'05.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        33.39394444444444,
+        6.871277777777778
+      ]
+    },
+    "properties": {
+      "name": "EPH El Oued",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "33\u00b023'38.2\"N 6\u00b052'16.6\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        33.953611111111115,
+        5.910583333333333
+      ]
+    },
+    "properties": {
+      "name": "EPH El Meghaier",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "33\u00b057'13.0\"N 5\u00b054'38.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        33.52616666666667,
+        5.987527777777778
+      ]
+    },
+    "properties": {
+      "name": "EPH Djamaa",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "33\u00b031'34.2\"N 5\u00b059'15.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        33.36441666666667,
+        6.8533888888888885
+      ]
+    },
+    "properties": {
+      "name": "EHS Bachir Ben Nacer",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "33\u00b021'51.9\"N 6\u00b051'12.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.449194444444444,
+        7.120166666666666
+      ]
+    },
+    "properties": {
+      "name": "EPH Khenchla",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b026'57.1\"N 7\u00b007'12.6\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.43272222222222,
+        7.149916666666667
+      ]
+    },
+    "properties": {
+      "name": "EPH Ali Boushaba",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b025'57.8\"N 7\u00b008'59.7\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.04025,
+        7.001972222222222
+      ]
+    },
+    "properties": {
+      "name": "EPH Chechar",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b002'24.9\"N 7\u00b000'07.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.49044444444444,
+        6.934
+      ]
+    },
+    "properties": {
+      "name": "EPH Kais",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b029'25.6\"N 6\u00b056'02.4\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.430388888888885,
+        7.142250000000001
+      ]
+    },
+    "properties": {
+      "name": "EHS Salhi Belkacem",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b025'49.4\"N 7\u00b008'32.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.28133333333333,
+        7.964777777777778
+      ]
+    },
+    "properties": {
+      "name": "EPH Souk Ahras",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b016'52.8\"N 7\u00b057'53.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.13180555555556,
+        7.533666666666667
+      ]
+    },
+    "properties": {
+      "name": "EPH Sedrata",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b007'54.5\"N 7\u00b032'01.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.26266666666667,
+        7.950277777777778
+      ]
+    },
+    "properties": {
+      "name": "EPH Ibn Rochd",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b015'45.6\"N 7\u00b057'01.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.63605555555556,
+        2.7716944444444445
+      ]
+    },
+    "properties": {
+      "name": "EPH Kol\u00e9a",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b038'09.8\"N 2\u00b046'18.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.58386111111111,
+        2.1281666666666665
+      ]
+    },
+    "properties": {
+      "name": "EPH Sidi Ghiles",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b035'01.9\"N 2\u00b007'41.4\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.57327777777778,
+        1.9055
+      ]
+    },
+    "properties": {
+      "name": "EPH Gouraya",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b034'23.8\"N 1\u00b054'19.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.50994444444444,
+        2.412333333333333
+      ]
+    },
+    "properties": {
+      "name": "EPH Hajout",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b030'35.8\"N 2\u00b024'44.4\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.59111111111111,
+        2.437638888888889
+      ]
+    },
+    "properties": {
+      "name": "EHS M\u00e8re et enfant",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b035'28.0\"N 2\u00b026'15.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.58683333333334,
+        2.46225
+      ]
+    },
+    "properties": {
+      "name": "Hopital de Tipaza",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b035'12.6\"N 2\u00b027'44.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.450138888888894,
+        6.2620555555555555
+      ]
+    },
+    "properties": {
+      "name": "EPH Mila Fr\u00e8res Tobal",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b027'00.5\"N 6\u00b015'43.4\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.25483333333333,
+        6.286416666666667
+      ]
+    },
+    "properties": {
+      "name": "EPH Oued-Athmania",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b015'17.4\"N 6\u00b017'11.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.1695,
+        6.161166666666667
+      ]
+    },
+    "properties": {
+      "name": "EPH Chelghoum Laid",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b010'10.2\"N 6\u00b009'40.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.41013888888889,
+        5.949583333333334
+      ]
+    },
+    "properties": {
+      "name": "EPH Ferdjioua",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b024'36.5\"N 5\u00b056'58.5\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.44397222222222,
+        6.2620555555555555
+      ]
+    },
+    "properties": {
+      "name": "EPH Fr\u00e9res Maghlaoui",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b026'38.3\"N 6\u00b015'43.4\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.265,
+        1.9632777777777777
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain Defla",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b015'54.0\"N 1\u00b057'47.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.30197222222222,
+        2.2241666666666666
+      ]
+    },
+    "properties": {
+      "name": "EPH Miliana\u00a0",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b018'07.1\"N 2\u00b013'27.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.25791666666667,
+        2.2327222222222223
+      ]
+    },
+    "properties": {
+      "name": "EPH Khemis Miliana",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b015'28.5\"N 2\u00b013'57.8\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.22963888888889,
+        1.7197500000000001
+      ]
+    },
+    "properties": {
+      "name": "EPH El Attaf",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b013'46.7\"N 1\u00b043'11.1\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        33.546194444444446,
+        -0.2738611111111111
+      ]
+    },
+    "properties": {
+      "name": "EPH Mechria",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "33\u00b032'46.3\"N 0\u00b016'25.9\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        32.75802777777778,
+        -0.593388888888889
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain Sefra",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "32\u00b045'28.9\"N 0\u00b035'36.2\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        33.527166666666666,
+        -0.2821111111111111
+      ]
+    },
+    "properties": {
+      "name": "EPH Naama",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "33\u00b031'37.8\"N 0\u00b016'55.6\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.29972222222222,
+        -1.1431944444444444
+      ]
+    },
+    "properties": {
+      "name": "EPH Ain Temouchent",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b017'59.0\"N 1\u00b008'35.5\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.288333333333334,
+        -1.1297777777777778
+      ]
+    },
+    "properties": {
+      "name": "EH Ain Temouchent",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b017'18.0\"N 1\u00b007'47.2\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.30566666666667,
+        -1.382861111111111
+      ]
+    },
+    "properties": {
+      "name": "EPH B\u00e9ni Saf",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b018'20.4\"N 1\u00b022'58.3\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.37694444444445,
+        -0.9662499999999999
+      ]
+    },
+    "properties": {
+      "name": "EPH Hammam Bouhdjar",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b022'37.0\"N 0\u00b057'58.5\"W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        32.48886111111111,
+        3.695638888888889
+      ]
+    },
+    "properties": {
+      "name": "EPH Ghardaia",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "32\u00b029'19.9\"N 3\u00b041'44.3\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        30.600361111111113,
+        2.8850555555555557
+      ]
+    },
+    "properties": {
+      "name": "EPH El Meniaa",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "30\u00b036'01.3\"N 2\u00b053'06.2\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        32.26336111111111,
+        3.624722222222222
+      ]
+    },
+    "properties": {
+      "name": "EPH Metlili",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "32\u00b015'48.1\"N 3\u00b037'29.0\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.733000000000004,
+        0.5515833333333334
+      ]
+    },
+    "properties": {
+      "name": "EPH Relizane",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35\u00b043'58.8\"N 0\u00b033'05.7\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.11938888888889,
+        0.8671388888888889
+      ]
+    },
+    "properties": {
+      "name": "EPH Mazouna",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "36\u00b007'09.8\"N 0\u00b052'01.7\"E"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.964333333333336,
+        0.9243055555555555
+      ]
+    },
+    "properties": {
+      "name": "EPH Oued Rhiou",
+      "imageUrl": "/pictures/hospitals/default.png",
+      "location": "35u00b057'51.6\"N 0\u00b055'27.5\"E"
+    }
   }
 ]
+
