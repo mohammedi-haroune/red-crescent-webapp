@@ -16,7 +16,7 @@
     "react-leaflet": "^2.6.0",
     "leaflet": "^1.5.1",
     "reactjs-popup": "^1.5.0",
-    "validator": "^12.1.0",
+    "validator": "^13.7.0",
     "react-ga": "^2.7.0"
   },
   "scripts": {
